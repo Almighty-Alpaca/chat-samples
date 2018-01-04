@@ -5,15 +5,12 @@ It is based on PircBotX which will work for most of your twitch goodies, If it d
 ## Installation
 After you have cloned this repository, You may code out of the java folder or move the classes to a package of your choice.
 
-You can setup gradle by opening a console window in this folder and typing
-```
-gradle init
-```
-
+## Building
 To build a jar you can do
 ```
-gradle jar
+.\gradlew jar
 ```
+The assembled jar will be in `/build/libs/`.
 
 ## Usage
 To run the chatbot, you will need to provide details in the Main class.
